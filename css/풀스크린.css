@@ -1,0 +1,52 @@
+/* header */
+ul {
+  width: 100%;
+  display: flex;
+  background-color: #ccc;
+  box-shadow: 2px 1px 3px #444;
+  position: fixed;
+  z-index: 1;
+}
+li {
+  width: calc(100% / 4);
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+a {
+  color: #222;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+header a:hover {
+  background-color: black;
+  color: white;
+}
+/* section */
+#container {
+  width: 100%;
+  position: fixed;
+}
+section {
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  font-size: 150px;
+  text-align: center;
+  line-height: 100vh;
+  font-style: italic;
+}
+.page1 {
+  background-color: lightgreen;
+}
+.page2 {
+  background-color: lightcoral;
+}
+.page3 {
+  background-color: lightgray;
+}
+.page4 {
+  background-color: lightseagreen;
+}
